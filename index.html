@@ -1,28 +1,32 @@
 <!DOCTYPE html>
-<html lang="esp">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <script src="funcional.js"></script>
-    <title>Home</title>
+<html lang="es" <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<script src="funcional.js"></script>
+<title>Home</title>
 </head>
 
 <body>
     <header>
-        <div class="logo">
-            <img src="GML2.png" alt="logoGmatic">
-        </div>
+        <img id="logo" src="GML2.png" alt="logoGmatic">
+
 
         <div class="reloj">
             <p class="tiempo"></p>
             <p class="fecha"></p>
         </div>
-        
-        <div class="menu">
-            <nav><img src="list-solid.svg" alt=""></nav>
+        <div>
+            <button id="button1"><img class="nav" src="bars-solid.svg"alt="nav">
+                <ul></ul>
+                <ul></ul>
+                <ul></ul>
+            </button>
+
         </div>
+
+
+
     </header>
 
     <section class="inicio">
@@ -37,5 +41,6 @@
         <div class="copy"></div>
     </footer>
 </body>
-    <script src="reloj.js"></script>
+<script src="reloj.js"></script>
+
 </html>
