@@ -61,15 +61,21 @@ button{
 
 .inicio{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     margin-top: 5%;
     margin-bottom: 5.1%;
 }
 
 .init1{
-    background-color: yellow;
-    width: 30%;
+    background-image: url(services.png);
+    width: 500px;
+    height: 400px;
+    margin: 20px auto;
+}
+.init2{
+    background-color: blue;
+    width: 500px;
     height: 400px;
     margin: 20px auto;
 }
@@ -78,7 +84,7 @@ button{
     background-color: yellow;
     width: 200px;
     height: 200px;
-    margin: 0px  5%;
+  
 }
 #footer{
     background-color: blue;
