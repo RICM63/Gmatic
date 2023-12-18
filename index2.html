@@ -1,32 +1,80 @@
-<div class="wrapper">
-    <div class="cols">
-        <div class="col" ontouchstart="this.classList.toggle('hover');">
-            <div class="container">
-                <div class="front">
-                    <img src="services.png" alt="init1">
-                    <p>Services</p>
-                    <span>all services</span>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="funcional.js"></script>
+</head>
+
+<header>
+    <img id="logo" src="GM3.png" alt="logoGmatic">
+    <div class="reloj">
+        <p class="tiempo"></p>
+        <p class="fecha"></p>
+    </div>
+    <div>
+        <button id="button1"><img class="nav" src="bars-solid.svg" alt="nav">
+            <ul id="Repuestos">
+            </ul>
+            <ul id="service">
+
+            </ul>
+            <ul id="contacto">
+
+            </ul>
+            <ul id="nosotros">
+
+            </ul>
+        </button>
+
+    </div>
+
+</header>
+
+<body>
+    <div class="wrapper">
+
+        <div class="cols">
+            <div class="col" ontouchstart="this.classList.toggle('hover');">
+                <div class="container">
+                    <div class="front" style="background-image: url(services2.png)">
+                        <div class="inner">
+                            <p>SERVICIOS</p>
+                        </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>Aqui se incluye las principales ramas de servicios</p>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="back">
-                <div class="inner">
-                    <p>aqui se van a incluir todos los servicos que vamos a prestar del lado talller</p>
-                </div>
-            </div></div>
             </div>
             <div class="col" ontouchstart="this.classList.toggle('hover');">
                 <div class="container">
-                    <div class="front">
-                        <img src="ventas.png" alt="ventas">
+                    <div class="front" style="background-image: url(IMG_5554-1024x768.jpg)">
                         <div class="inner">
-                            <p>ventas</p>
-                            <span>aqui van los pricipales titulos de repuestos</span>
+                            <p>VENTAS</p>
                         </div>
+                    </div>
+                    <div class="back">
+                        <div class="inner">
+                            <p>aqui se incluye las pricipales ramas de las ventas</p>
                         </div>
-                        <div class="back">
-                            <div class="inner">
-                                <p>aqui no se que va debo fijarme en el ig</p>
-                            </div>
-                            </div></div> 
-                            </div></div>
-<!-- final de codigo html -->
+                    </div>
+                </div>
+            </div>
+</body>
+
+<footer>
+    <div class="RRSS"></div>
+    <div class="Contact"></div>
+    <div class="copy"></div>
+</footer>
+
+<script src="reloj.js"></script>
+
+</html>
