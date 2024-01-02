@@ -12,7 +12,6 @@ body {
     background-attachment: fixed;
 }
 
-
 .reloj {
     font-family: 'share tech mono', monospace;
     color: #fffefe;
@@ -34,13 +33,14 @@ body {
 
 }
 
-img {
+#logo{
     height: 100px;
     width: 200px;
     margin-left: 20px;
     margin-top: 35px;
 
 }
+
 
 header {
     background-image: linear-gradient(rgb(0, 0, 0), rgba(255, 255, 255, 0.5));
@@ -66,14 +66,13 @@ button {
     border: none;
 }
 
-
 footer {
-    background-color: blue;
-    height: 45px;
     position: fixed;
     bottom: 0;
     width: 100%;
+
 }
+
 
 .wrapper {
     width: 100%;
@@ -88,9 +87,10 @@ footer {
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
+    justify-content: space-around;
 }
 
 .col {
