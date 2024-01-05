@@ -6,12 +6,12 @@
         <title>Home Repuestos</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
         <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="Animated-Radial-Menu.css">
+        <link rel="stylesheet" href="style.Animated-Radial-Menu.css">
         <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
          <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script defer src="Animated-Radial-Menu.js"></script> -->
+        <script defer src="Animated-Radial-Menu.js"></script> 
         <script src="funcional.js"></script>
-        <link rel="stylesheet" href="style.repuestos.css">
+        <link rel="stylesheet" href="style.formularios.css">
     </head>
 <body>
     <header class="hearder">
@@ -40,14 +40,36 @@
     </header>
 
     <main>
-        <div class="datosCliente">
+        <div class="datos">
+            <div class="contenedor">
+              <div class="formulario">
+                <label for="marca">Marca:</label>
+                <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
+            </div>
+            </div>
+            <div class="contenedor">
+                <div class="formulario">
+                <label for="modelo">Modelo:</label>
+                <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+            </div>
+            </div>   
+                <div class="contenedor">
+                    <div class="formulario">
+                <label for="ano">Año:</label>
+                <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
+            </div>    
+            </div>    
+                <div class="contenedor">
+                    <div class="formulario">
+                <label for="motor">Motor:</label>
+                <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+            </div>
+            </div>
             
-              <div class="datos">Marca</div>
-              <div class="datos">Modelo</div>
-              <div class="datos">Año</div>
-              <div class="datos">Motor</div>
-            
-          </div>
+                <div class="formulario">
+                <button onclick="guardarDatos()">Guardar Datos</button>
+              
+            </div>
     </main>
 
     <footer>
@@ -81,12 +103,10 @@
             </ul>
     
         </div>
-        
+
         <div class="Contact">
             <h2>Contacto</h2>
-            <div>
-            
-                
+            <div class="Contact1">
                     <a href="https://www.facebook.com/RicardoM63?mibextid=2JQ9oc">
                         <img class="icon-img" src="icon-whatsapp.png"  alt="fb">
                     </a>
@@ -104,11 +124,15 @@
     
     
         </div>
-        <div class="copy"></div>
+        <div class="copy">
+            <p>Copyright © 2024
+            </p>
+        </div>
     </footer>
     
     
     
 </body>
 <script src="reloj.js"></script>
+<script src="guardarDatos.js"></script>
 </html>

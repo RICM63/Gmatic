@@ -3,12 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 /* html {
     height: 100%;
 } */
 
 body {
-   justify-content: center;
+    justify-content: center;
     display: flex;
     width: 100%;
     background-color: #050505;
@@ -37,7 +38,7 @@ body {
 
 }
 
-#logo{
+#logo {
     height: 100px;
     width: 200px;
     margin-left: 20px;
@@ -72,7 +73,7 @@ button {
 
 footer {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -81,7 +82,7 @@ footer {
 
 }
 
-h2{
+h2 {
     font-size: 40px;
     color: #fff;
 }
@@ -91,18 +92,26 @@ button {
     cursor: pointer;
 }
 
-.contact{
+.contact {
     display: flex;
     justify-content: space-between;
     align-items: center;
     list-style: none;
 }
 
-.copy{
-    background-color: #fff;
-    width: 50px;
-    height: 50px;
+.Contact1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
 
+.copy {
+    width: 130px;
+    height: 34px;
+    display: flex;
+    position: absolut;
+    color: #fff;
+    font: bold
 }
 
 .wrapper {
@@ -110,7 +119,7 @@ button {
     margin-top: 15%;
     max-width: 90rem;
     justify-content: end;
-    
+
 }
 
 .cols {
