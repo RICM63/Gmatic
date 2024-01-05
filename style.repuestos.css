@@ -1,0 +1,23 @@
+main{
+    display: flex;
+    height: 90%;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+}
+.datosCliente{
+    display: flex;
+
+    justify-content: space-between;
+
+}
+
+.datos{
+    background-color: #fff;
+    width: 90%;
+    height: 300px;
+    display: flex;
+    
+    justify-content:space-around;
+}
