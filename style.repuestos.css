@@ -1,23 +1,27 @@
 main{
     display: flex;
     height: 90%;
-    width: 90%;
+    width: 100%;
     justify-content: center;
     align-items: center;
     margin-top: 120px;
 }
 .datosCliente{
     display: flex;
-
-    justify-content: space-between;
-
+    flex-wrap: wrap;
+    justify-content: space- around;
+    width: 100%;
 }
+    
+
+
 
 .datos{
     background-color: #fff;
-    width: 90%;
-    height: 300px;
+    width: 220px;
+    height: 50px;
     display: flex;
-    
-    justify-content:space-around;
+    margin:50px;
+    align-items: center;
+    justify-content:center;
 }
