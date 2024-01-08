@@ -34,6 +34,7 @@ body {
     font-weight: bold;
     display: block;
     color: #fff;
+
 }
 
 .formulario input {
@@ -59,4 +60,19 @@ body {
 .datos {
     display: flex;
     justify-content: space-around;
+    padding-top: 80px;
 }
+
+#modelo{
+    border-top-right-radius: 6px;
+}
+#marca{
+    border-top-right-radius: 6px;
+}
+#ano{
+    border-top-right-radius: 6px;
+}
+#motor {
+    border-top-right-radius: 6px;
+}
+

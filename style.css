@@ -14,7 +14,7 @@ body {
     width: 100%;
     background-color: #050505;
     background-image: url(fondoGM.png);
-    /* background-attachment: fixed; */
+    
 }
 
 .reloj {
@@ -77,14 +77,17 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-
+    height: 83px;
     flex-wrap: nowrap;
 
 }
 
 h2 {
+    display: flex;
+    width: 330px;
     font-size: 40px;
     color: #fff;
+    justify-content: end;
 }
 
 button {
@@ -92,26 +95,15 @@ button {
     cursor: pointer;
 }
 
-.contact {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-}
-
-.Contact1 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center
-}
-
 .copy {
-    width: 130px;
-    height: 34px;
+    width: 100px;
+    height: 14px;
     display: flex;
-    position: absolut;
     color: #fff;
-    font: bold
+    align-self: flex-end;
+    padding-bottom: 24px;
+    font: bold 11px arial;
+   
 }
 
 .wrapper {
@@ -260,3 +252,64 @@ button {
         margin: 0 0 2rem 0;
     }
 }
+
+main {
+   display: grid;
+    grid-template-rows: 123px 213px;
+    align-items: end;
+    justify-content: center;
+    height: 34vh;
+}
+
+ 
+.s1{
+    /* background-color: rgb(202, 202, 202); */
+    width: 100%;  
+}
+.s3{
+    display: flex;
+    justify-content: center;
+}
+
+.rotating-cube .logoRotate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.rotating-cube {
+    width: 80px;
+    height: 80px;
+    background-color: none;
+    animation: rotate 5s infinite linear; 
+    transform-style: preserve-3d;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+img{
+    width: 100px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotateX(0) rotateY(0) rotateZ(0);
+    }
+    to {
+        transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
+    }
+}
+
+.car{
+    width: 300px;
+    height: 150px;
+    background-color: none;
+    animation: rotate 5s infinite linear; 
+    transform-style: preserve-3d;
+    justify-content: center;
+}
+
+
+

@@ -1,92 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Home Repuestos</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="style.Animated-Radial-Menu.css">
-        <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-         <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-        <script defer src="Animated-Radial-Menu.js"></script> 
-        <script src="funcional.js"></script>
-        <link rel="stylesheet" href="style.formularios.css">
-    </head>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Repuestos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.Animated-Radial-Menu.css">
+    <script defer type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script defer nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script defer src="Animated-Radial-Menu.js"></script>
+    <script src="funcional.js"></script>
+    <link rel="stylesheet" href="style.formularios.css">
+</head>
+
 <body>
     <header class="hearder">
-        <img id="logo" src="GM3.png" alt="logoGmatic">
+        <div class="rotating-cube">
+            <div class="logoRotate"> <img src="GMATIC LOGO2.1.png" alt="logo"> </div>
+        </div>
         <div class="reloj">
             <p class="tiempo"></p>
             <p class="fecha"></p>
         </div>
         <div>
-            <button id="button1"><img class="nav" src="bars-solid.svg" alt="nav">
+            <button class="button1"><img class="nav" src="bars-solid.svg" alt="nav">
                 <ul id="Repuestos">
                 </ul>
                 <ul id="service">
-    
+
                 </ul>
                 <ul id="contacto">
-    
+                        
+                        <!-- <div class="contact1">
+                            <a href="https://www.facebook.com/RicardoM63?mibextid=2JQ9oc">
+                                
+                            </a>
+            
+                            <a href="mailto:ricardomoncada96@gmail.com" target="_blank">
+                                
+                            </a>
+            
+                            <a> <button id="llamadaBtn"></button>
+            
+                            </a> -->
+                       
+
                 </ul>
                 <ul id="nosotros">
-    
+
                 </ul>
             </button>
-    
+
         </div>
-    
+
     </header>
 
     <main>
+        <section class="s1">
         <div class="datos">
             <div class="contenedor">
-              <div class="formulario">
-                <label for="marca">Marca:</label>
-                <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
-            </div>
+                <div class="formulario">
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
+                </div>
             </div>
             <div class="contenedor">
                 <div class="formulario">
-                <label for="modelo">Modelo:</label>
-                <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+                    <label for="modelo">Modelo:</label>
+                    <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+                </div>
             </div>
-            </div>   
-                <div class="contenedor">
-                    <div class="formulario">
-                <label for="ano">Año:</label>
-                <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
-            </div>    
-            </div>    
-                <div class="contenedor">
-                    <div class="formulario">
-                <label for="motor">Motor:</label>
-                <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
-            </div>
-            </div>
-            
+            <div class="contenedor">
                 <div class="formulario">
-                <button onclick="guardarDatos()">Guardar Datos</button>
-              
+                    <label for="ano">Año:</label>
+                    <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
+                </div>
             </div>
+            <div class="contenedor">
+                <div class="formulario">
+                    <label for="motor">Motor:</label>
+                    <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+                </div>
+            </div>
+            <div class="formulario">
+                <button onclick="guardarDatos()">Guardar Datos</button>
+
+            </div>
+        </section>
+        <section class="s3">
+            <img class="car" src="car.png" alt="">
+        </section>
     </main>
 
     <footer>
         <div class="Animated-Radial-Menu">
-    
+
             <ul class="menu">
                 <div class="toggle"><ion-icon name="add-outline"></ion-icon></div>
-               
+
                 <li style="--i: 1; --clr: #3235e4;">
                     <a href="https://www.facebook.com/RicardoM63?mibextid=2JQ9oc">
-                        <img class="icon-img" src="icon-facebook.png"  alt="fb">
+                        <img class="icon-img" src="icon-facebook.png" alt="fb">
                     </a>
                 </li>
                 <li style="--i: 2; --clr: #5daa04;">
                     <a href="https://www.instagram.com/gmatic_transmisiones?igsh=MXhoOXVlZmJldWtydw==">
                         <img class="icon-img" src="icon-instagram.png" alt="ig">
-                       
+
                     </a>
                 </li>
                 <li style="--i: 3; --clr: #070707;">
@@ -99,40 +121,25 @@
                         <img src="icon-youtube.png" alt="yt" class="icon-img">
                     </a>
                 </li>
-                
+
             </ul>
-    
+
         </div>
 
-        <div class="Contact">
-            <h2>Contacto</h2>
-            <div class="Contact1">
-                    <a href="https://www.facebook.com/RicardoM63?mibextid=2JQ9oc">
-                        <img class="icon-img" src="icon-whatsapp.png"  alt="fb">
-                    </a>
-               
-                    <a href="mailto:ricardomoncada96@gmail.com" target="_blank">
-                        <img class="icon-img" src="icon-mail.png"  alt="fb">
-                    </a>
-               
-                    <a> <button id="llamadaBtn"> <img class="icon-img" src="icon-telephone.png"  alt="call"></button>
-                        
-                    </a>
-              
-                
-            </div>
-    
-    
+
+
+
         </div>
         <div class="copy">
             <p>Copyright © 2024
             </p>
         </div>
     </footer>
-    
-    
-    
+
+
+
 </body>
 <script src="reloj.js"></script>
 <script src="guardarDatos.js"></script>
+
 </html>
