@@ -10,7 +10,7 @@ body {
 }
 
 .contenedor {
-    max-width: 600px;
+    max-width: 1000px;
     padding: 20px;
     background-image: linear-gradient(90deg, rgb(211, 0, 0) 5%, transparent);
     border-radius: 8px;
@@ -19,12 +19,12 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     align-items: center;
+    margin: 0px 20px 0px 20px;
 
 }
 
 .formulario {
     flex: 1 1 calc(25% - 20px);
-    /* Divide en 4 columnas y ajusta el ancho */
     display: flex;
     justify-content: space-between;
     max-width: 90%;
@@ -38,7 +38,7 @@ body {
 }
 
 .formulario input {
-    width: 100%;
+   
     box-sizing: border-box;
     border: none;
     margin-left: 5%;
@@ -48,19 +48,21 @@ body {
 
 .formulario button {
     font-weight: bold;
-    width: 90%;
-    padding: 10px;
+    width: 100%;
+    padding: 25px;
     background-color:rgb(211, 0, 0);
     color: #fff;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .datos {
     display: flex;
     justify-content: space-around;
     padding-top: 80px;
+    align-items: center;
 }
 
 #modelo{
