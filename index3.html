@@ -32,8 +32,8 @@
 
                 </ul>
                 <ul id="contacto">
-                        
-                        <!-- <div class="contact1">
+
+                    <!-- <div class="contact1">
                             <a href="https://www.facebook.com/RicardoM63?mibextid=2JQ9oc">
                                 
                             </a>
@@ -45,7 +45,7 @@
                             <a> <button id="llamadaBtn"></button>
             
                             </a> -->
-                       
+
 
                 </ul>
                 <ul id="nosotros">
@@ -59,39 +59,46 @@
 
     <main>
         <section class="s1">
-        <div class="datos">
-            <div class="contenedor">
-                <div class="formulario">
-                    <label for="marca">Marca:</label>
-                    <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
+            <div class="datos">
+                <div class="contenedor">
+                    <div class="formulario">
+                        <label for="marca">Marca:</label>
+                        <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
+                    </div>
                 </div>
-            </div>
-            <div class="contenedor">
-                <div class="formulario">
-                    <label for="modelo">Modelo:</label>
-                    <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+                <div class="contenedor">
+                    <div class="formulario">
+                        <label for="modelo">Modelo:</label>
+                        <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+                    </div>
                 </div>
-            </div>
-            <div class="contenedor">
-                <div class="formulario">
-                    <label for="ano">Año:</label>
-                    <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
+                <div class="contenedor">
+                    <div class="formulario">
+                        <label for="ano">Año:</label>
+                        <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
+                    </div>
                 </div>
-            </div>
-            <div class="contenedor">
-                <div class="formulario">
-                    <label for="motor">Motor:</label>
-                    <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+                <div class="contenedor">
+                    <div class="formulario">
+                        <label for="motor">Motor:</label>
+                        <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+                    </div>
                 </div>
-            </div>
-            <div class="formulario">
-                <button onclick="guardarDatos()">Guardar Datos</button>
+                <div class="formulario">
 
-            </div>
+                <button onclick="guardarYMostrarDatos()">Guardar Datos</button>
+                </div>
+
+                <div id="datosMostrados">
+                    <h2>Datos Guardados:</h2>
+                    <ul id="listaDatos"></ul>
+                  </div>
+
         </section>
         <section class="s3">
             <img class="car" src="car.png" alt="">
         </section>
+
     </main>
 
     <footer>
@@ -141,5 +148,6 @@
 </body>
 <script src="reloj.js"></script>
 <script src="guardarDatos.js"></script>
+
 
 </html>
