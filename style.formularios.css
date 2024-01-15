@@ -23,21 +23,21 @@ body {
 
 }
 
-.formulario {
+#formulario {
     flex: 1 1 calc(25% - 20px);
     display: flex;
     
  
 }
 
-.formulario label {
+#formulario label {
     font-weight: bold;
     display: block;
     color: #fff;
 
 }
 
-.formulario input {
+#formulario input {
    
     box-sizing: border-box;
     border: none;
@@ -45,7 +45,7 @@ body {
     box-sizing: border-box;
 }
 
-.formulario button {
+#formulario button {
     font-weight: bold;
     width: 100%;
     padding: 25px;
@@ -91,3 +91,5 @@ padding: 0;
 #datosMostrados li {
 margin-bottom: 10px;
 }
+
+

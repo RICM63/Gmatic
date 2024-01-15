@@ -61,32 +61,25 @@
         <section class="s1">
             <div class="datos">
                 <div class="contenedor">
-                    <div class="formulario">
+                    <div id="formulario">
                         <label for="marca">Marca:</label>
-                        <input type="text" id="marca" name="marca" placeholder="Ingrese la marca">
-                    </div>
-                </div>
-                <div class="contenedor">
-                    <div class="formulario">
+                        <input type="marca" id="marca" name="marca" placeholder="Ingrese la marca">
+                 
                         <label for="modelo">Modelo:</label>
-                        <input type="text" id="modelo" name="modelo" placeholder="Ingrese el modelo">
-                    </div>
-                </div>
-                <div class="contenedor">
-                    <div class="formulario">
+                        <input type="modelo" id="modelo" name="modelo" placeholder="Ingrese el modelo">
+                   
                         <label for="ano">Año:</label>
-                        <input type="text" id="ano" name="ano" placeholder="Ingrese el año">
-                    </div>
-                </div>
-                <div class="contenedor">
-                    <div class="formulario">
+                        <input type="ano" id="ano" name="ano" placeholder="Ingrese el año">
+                   
                         <label for="motor">Motor:</label>
-                        <input type="text" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+                        <input type="formulario" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
+                    
+                        <button onclick="guardarYMostrarDatos()">Guardar Datos</button>
                     </div>
                 </div>
-                <div class="formulario">
+                <div id="formulario">
 
-                <button onclick="guardarYMostrarDatos()">Guardar Datos</button>
+                
                 </div>
 
                 <div id="datosMostrados">
@@ -95,6 +88,7 @@
                   </div>
 
         </section>
+        
         <section class="s3">
             <img class="car" src="car.png" alt="">
         </section>
