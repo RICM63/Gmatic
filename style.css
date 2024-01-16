@@ -264,7 +264,10 @@ main {
  
 .s1{
     /* background-color: rgb(202, 202, 202); */
-    width: 100%;  
+    width: 100%; 
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start; 
 }
 .s3{
     display: flex;
