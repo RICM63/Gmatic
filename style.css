@@ -12,8 +12,8 @@ body {
     justify-content: center;
     display: flex;
     width: 100%;
-    background-color: #050505;
-    background-image: url(fondoGM.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.877), rgba(255, 255, 255, 0)),
+                  url("fondoGM.png");
     
 }
 
@@ -253,21 +253,17 @@ button {
     }
 }
 
+
 main {
-   display: grid;
+    display: grid;
     grid-template-rows: 123px 213px;
     align-items: end;
     justify-content: center;
     height: 34vh;
 }
-
- 
 .s1{
-    /* background-color: rgb(202, 202, 202); */
-    width: 100%; 
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start; 
+    align-self: center;
+    
 }
 .s3{
     display: flex;
@@ -314,5 +310,9 @@ img{
     justify-content: center;
 }
 
-
+.car1{
+    width: 150px;
+    height: 84px;
+    padding: 0;
+}
 

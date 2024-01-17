@@ -1,3 +1,6 @@
+
+
+
 function guardarYMostrarDatos() {
   const marca = document.getElementById('marca').value;
   const modelo = document.getElementById('modelo').value;
@@ -37,12 +40,24 @@ function guardarYMostrarDatos() {
     document.getElementById('ano').value = '';
     document.getElementById('motor').value = '';
 
+
     // Mostrar el formulario después de mostrar los datos
     document.getElementById('formulario').style.display = 'none';
 
     // Mostrar el elemento con el ID 'datosMostrados'
     document.getElementById('datosMostrados').style.display = 'block';
+    ocultarS3();
   } else {
     alert('Por favor, complete todos los campos.');
+
+    
+  }
+}
+
+function ocultarS3() {
+  // Oculta la sección con la clase "s3"
+  const s3Section = document.querySelector('.s3');
+  if (s3Section) {
+      s3Section.style.display = 'none';
   }
 }
