@@ -57,18 +57,19 @@ body {
 
 }
 
-#modelo {
-    border-top-right-radius: 6px;
-    margin: 30px;
-   
 
-}
 
 #marca {
     border-top-right-radius: 6px;
     margin: 30px;
     background-color: #ffffff;
+
     
+}
+
+#modelo {
+    border-top-right-radius: 6px;
+    margin: 30px;
 }
 
 #ano {
@@ -84,11 +85,11 @@ body {
 }
 
 #datosMostrados {
-    display: none;
+     display: none;
     justify-content: flex-start;
-    margin: 20px auto;
     background-color: #00000027;
-
+    width: 100%; 
+    
 }
 
 .datosMostrados2 {
@@ -130,7 +131,6 @@ body {
 
 #listaDatos li {
     margin-bottom: 10px;
-    width: fit-content;
     background-color: #b80909;
     background-size: auto;
     border-radius: 10px;
@@ -151,7 +151,7 @@ h2 {
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: flex-end;
-    margin: 10px;
+   
 }
 
 .s1 {

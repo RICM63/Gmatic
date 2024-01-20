@@ -13,8 +13,8 @@ body {
     display: flex;
     width: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.877), rgba(255, 255, 255, 0)),
-                  url("fondoGM.png");
-    
+        url("fondoGM.png");
+
 }
 
 .reloj {
@@ -44,6 +44,15 @@ body {
     margin-left: 20px;
     margin-top: 35px;
 
+}
+
+#nav {
+
+
+    margin: 15px 20px 0px 0px;
+
+    width: 45px;
+    height: 45px;
 }
 
 
@@ -96,16 +105,30 @@ button {
 }
 
 .copy {
-    width: 100px;
-    height: 14px;
+    display: flex;
+    align-items: center;
+    width: 175px;
+    height: 5px;
     display: flex;
     color: #fff;
     align-self: flex-end;
     padding-bottom: 24px;
-    font: bold 11px arial;
-   
+    font: bold 12px arial;
+
 }
 
+#rmstudios {
+    font: bold 12px arial;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 1px 18px 8px rgba(255, 255, 255, 0.144);
+    background-color: rgba(255, 255, 255, 0.144);
+    transition: font-size 0.3s ease;
+}
+
+#rmstudios:hover{
+    font-size: 14px;
+}
 .wrapper {
     width: 100%;
     margin-top: 3%;
@@ -162,9 +185,8 @@ button {
 }
 
 .back {
-    background: #75000085;
     background: -webkit-linear-gradient(45deg, #4e0101 0%, #970404 110%);
-
+    background: #75000085;
 
 }
 
@@ -259,34 +281,32 @@ main {
     grid-template-rows: 123px 213px;
     align-items: end;
     justify-content: center;
-    height: 34vh;
+    height: 45vh;
 }
-.s1{
-    align-self: center;
-    
-}
-.s3{
+
+.s3 {
     display: flex;
     justify-content: center;
 }
 
-.rotating-cube .logoRotate{
+.rotating-cube .logoRotate {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
 }
+
 .rotating-cube {
     width: 80px;
     height: 80px;
     background-color: none;
-    animation: rotate 5s infinite linear; 
+    animation: rotate 5s infinite linear;
     transform-style: preserve-3d;
     justify-content: center;
     margin-left: 10px;
 }
 
-img{
+img {
     width: 100px;
     padding-top: 5px;
     padding-left: 5px;
@@ -296,23 +316,23 @@ img{
     from {
         transform: rotateX(0) rotateY(0) rotateZ(0);
     }
+
     to {
         transform: rotateX(0deg) rotateY(360deg) rotateZ(0deg);
     }
 }
 
-.car{
+.car {
     width: 300px;
     height: 150px;
     background-color: none;
-    animation: rotate 5s infinite linear; 
+    animation: rotate 5s infinite linear;
     transform-style: preserve-3d;
     justify-content: center;
 }
 
-.car1{
+.car1 {
     width: 150px;
     height: 84px;
     padding: 0;
 }
-

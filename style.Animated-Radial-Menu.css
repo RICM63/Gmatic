@@ -39,6 +39,7 @@
     transition-delay: calc(0.04s * var(--i));
     transform: rotate(0deg) translateX(0px);
     transform-origin: 140px;
+   
 }
 
 .Animated-Radial-Menu .menu li a {
@@ -52,6 +53,7 @@
     font-size: 1.5em;
     transform: rotate(calc(-45deg * var(--i)));
     transition: 0.3s;
+    
 }
 
 .Animated-Radial-Menu .menu li a:hover {

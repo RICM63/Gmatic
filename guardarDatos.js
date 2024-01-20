@@ -11,16 +11,18 @@ function guardarYMostrarDatos() {
   if (marca && modelo && ano && motor) {
     // Crear un nuevo elemento de lista
     const nuevaLista = document.getElementById('listaDatos');
+      
     const nuevoItem = document.createElement('li');
+    nuevoItem.style.color = 'white';
+    nuevoItem.style.fontWeight = 'bold';
 
-    // Crear elementos p dentro del li para que estén en vertical
     const parrafoMarca = document.createElement('p');
     const parrafoModelo = document.createElement('p');
     const parrafoAno = document.createElement('p');
     const parrafoMotor = document.createElement('p');
 
-    // Asignar el contenido de los párrafos con los datos ingresados
-    parrafoMarca.textContent = `Marca: ${marca}`;
+
+    parrafoMarca.textContent = ` Marca: ${marca}`;
     parrafoModelo.textContent = `Modelo: ${modelo}`;
     parrafoAno.textContent = `Año: ${ano}`;
     parrafoMotor.textContent = `Motor: ${motor}`;
@@ -50,7 +52,7 @@ function guardarYMostrarDatos() {
   } else {
     alert('Por favor, complete todos los campos.');
 
-    
+
   }
 }
 
@@ -58,6 +60,6 @@ function ocultarS3() {
   // Oculta la sección con la clase "s3"
   const s3Section = document.querySelector('.s3');
   if (s3Section) {
-      s3Section.style.display = 'none';
+    s3Section.style.display = 'none';
   }
 }
