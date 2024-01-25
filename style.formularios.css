@@ -164,5 +164,7 @@ h2 {
     display: flex;
     align-items: flex-end;
     margin-left: 850px;
+    width: 100px;
+    height: 100px;
 
 }

@@ -63,3 +63,11 @@ function ocultarS3() {
     s3Section.style.display = 'none';
   }
 }
+
+function mostrarContenido() {
+  // Obtener la referencia a la sección
+  const s2 = document.getElementById('s2');
+
+  // Cambiar el estilo de display para mostrar la sección
+  s2.style.display = 'block';
+}

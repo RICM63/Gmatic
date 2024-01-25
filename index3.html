@@ -18,7 +18,7 @@
 <body>
     <header class="hearder">
         <div class="rotating-cube">
-            <div class="logoRotate"> <img src="GMATIC LOGO2.1.png" alt="logo"> </div>
+            <div class="logoRotate"> <img src="GMATIC LOGO2.1.png" class="logo"> </div>
         </div>
         <div class="reloj">
             <p class="tiempo"></p>
@@ -72,7 +72,7 @@
                 <label for="motor">Motor:</label>
                 <input type="formulario" id="motor" name="motor" placeholder="Ingrese el tipo de motor">
 
-                <button onclick="guardarYMostrarDatos()">Guardar Datos</button>
+                <button onclick="guardarYMostrarDatos(); mostrarContenido()">Guardar Datos</button>
 
             </div>
 
@@ -84,8 +84,8 @@
                     <img class="car1" src="car.png" alt="">
                     <img id="logoMarca" src="GMATIC LOGO2.png" alt="">
                 </div>
-                <div  >
-                    
+                <div>
+
                 </div>
             </div>
 
@@ -95,6 +95,31 @@
         <section class="s3">
             <img class="car" src="car.png" alt="">
         </section>
+
+        <section id='s2'>
+            <div class="s3buton">
+                <div class="s2img">
+                    <button id="s3buton">Transmisión Completa</button>
+                    <img src="Tcomplete.png" alt="" class="s2imgsize">
+                </div>
+
+                <div class="s2img">
+                    <button id="s3buton">Piezas de Transmisión</button>
+                    <img src="Tpart.png" alt="" class="s2imgsize2">
+                </div>
+
+                <div class="s2img">
+                    <button id="s3buton">Kit de Mantenimiento</button>
+                    <img src="Tkit.png" alt="" class="s2imgsize">
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
 
     </main>
 
@@ -135,7 +160,8 @@
 
         </div>
         <div class="copy">
-            <h5>Copyright © 2024 || <a id="rmstudios" href="https://www.instagram.com/ricm63/" target="_blank">  RM Studios</a> 
+            <h5>Copyright © 2024 || <a id="rmstudios" href="https://www.instagram.com/ricm63/" target="_blank"> RM
+                    Studios</a>
             </h5>
         </div>
     </footer>
