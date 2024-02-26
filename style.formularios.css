@@ -18,6 +18,7 @@ body {
     padding: 8px 20px 8px 20px;
     background: linear-gradient(70deg, rgba(255, 0, 0, 0.534), rgba(255, 0, 43, 0));
     border-radius: 0px 8% /90px;
+    width: 100%;
 }
 
 #formulario label {
@@ -87,17 +88,16 @@ body {
 #datosMostrados {
      display: none;
     justify-content: flex-start;
-    background-color: #00000027;
+    background-color: #5e565627;
     width: 100%; 
     
 }
 
 .datosMostrados2 {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between ;
     align-items: center;
-    width: 100%;
-    border-color: aqua;
+    width: 100%; 
 }
 
 #datosMostrados ul {
@@ -111,10 +111,7 @@ body {
     display: flex;
     flex-direction: column;
     list-style-type: none;
-    padding: 0;
-    width: 100%;
-
-
+   
 }
 
 #datosMostrados li {
@@ -151,6 +148,8 @@ h2 {
     align-items: flex-start;
     flex-direction: row-reverse;
     justify-content: flex-end;
+    padding-left: 5px;
+   
    
 }
 
@@ -158,13 +157,25 @@ h2 {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
+    width: 100%;
 }
 
 #logoMarca {
     display: flex;
     align-items: flex-end;
-    margin-left: 850px;
+   
     width: 100px;
     height: 100px;
 
+}
+
+#s12 img{
+    width: 281px;
+    height: 169px;
+}
+
+#caja{
+    width: 290px;
+    height: 200px;
+    
 }

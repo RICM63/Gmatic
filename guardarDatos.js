@@ -1,3 +1,7 @@
+$(".boton").on("click", function () {
+  var evento = $(this);
+  guardarYMostrarContenido(evento);
+});
 
 
 
@@ -57,7 +61,6 @@ function guardarYMostrarDatos() {
 }
 
 function ocultarS3() {
-  // Oculta la sección con la clase "s3"
   const s3Section = document.querySelector('.s3');
   if (s3Section) {
     s3Section.style.display = 'none';
@@ -65,9 +68,17 @@ function ocultarS3() {
 }
 
 function mostrarContenido() {
-  // Obtener la referencia a la sección
   const s2 = document.getElementById('s2');
-
-  // Cambiar el estilo de display para mostrar la sección
   s2.style.display = 'block';
+}
+
+function guardarYMostrarContenido(evento) {
+  console.log("f");
+  // Obtener la fuente de la imagen dentro del elemento en s3
+  const contenidoAGuardar = evento.closest('#elementoAGuardar').find('img#caja').attr('src');
+  // Mostrar la imagen en s1
+  const s3 = document.getElementById('s12');
+  s3.innerHTML = `<img src="${contenidoAGuardar}" alt="imagen guardada">`;
+  document.getElementById('s12').style.display = 'block';
+  document.getElementById('s2').style.display = 'none';
 }
